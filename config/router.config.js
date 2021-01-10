@@ -15,7 +15,7 @@ export default [
     path: '/',
     component: '../layouts/BasicLayout',
     Routes: ['src/pages/Authorized'],
-    authority: ['admin', 'user', 'xuying', 'biaochenxuying'],
+    authority: ['PandaPorter'],
     routes: [
       // dashboard
       { path: '/', redirect: '/user/login' },
